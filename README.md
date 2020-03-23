@@ -63,7 +63,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
   action:
     - service: tts.google_say
       entity_id: media_player.room_speaker
-      data_template:
+      data:
         message: "Ngày mai là rằm."
 ```
 ```
@@ -77,7 +77,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
   action:
     - service: tts.google_say
       entity_id: media_player.room_speaker
-      data_template:
+      data:
         message: "Ngày mai là mùng một."
 ```
 

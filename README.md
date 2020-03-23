@@ -35,10 +35,9 @@ QuandoiVN:	Ngày thành lập Quân đội Nhân dân Việt Nam
 Giangsinh:	Ngày Lễ Giáng Sinh
 ```
 
-
-
 # Config sensor:
-sensor:
+```
+#sensor:
 - platform: rest  
   name: "Lunar Exlab"
   resource: https://raw.githubusercontent.com/ExlLab/lich_am/master/sensor.json
@@ -49,7 +48,7 @@ sensor:
     - MungMot
     - TetNguyenDan
     - TetNguyentieu
-    
+ ```   
 
 # Code automation for TTS:
 

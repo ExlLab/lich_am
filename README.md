@@ -59,7 +59,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
     at: '20:00:00'
   condition:
     condition: template
-    value_template: '{{ state_attr("sensor.lunar_exlab", "NgayRam") = 1 }}'    
+    value_template: '{{ state_attr("sensor.lunar_exlab", "NgayRam")|int == 1 }}'    
   action:
     - service: tts.google_say
       entity_id: media_player.room_speaker
@@ -73,7 +73,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
     at: '20:00:00'
   condition:
     condition: template
-    value_template: '{{ state_attr("sensor.lunar_exlab", "MungMot") = 1 }}'    
+    value_template: '{{ state_attr("sensor.lunar_exlab", "MungMot")|int == 1 }}'    
   action:
     - service: tts.google_say
       entity_id: media_player.room_speaker

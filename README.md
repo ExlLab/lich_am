@@ -1,7 +1,7 @@
 Sensor calendar on Home Assistant  
 Author: exlab247  
 Date 24 Mar, 2020  
-~--------  
+~----------------~
 
 Attributes of sensor:  
 ```
@@ -51,7 +51,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
     - TetNguyentieu
  ```   
 
-### Code automation for TTS:
+### Automation code for TTS:
 
 
     

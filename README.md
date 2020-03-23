@@ -1,9 +1,9 @@
-Sensor calendar on Home Assistant
-Author: exlab247
-Date 24 Mar, 2020
-~--------
+Sensor calendar on Home Assistant  
+Author: exlab247  
+Date 24 Mar, 2020  
+~--------  
 
-Attributes of sensor:
+Attributes of sensor:  
 ```
 TetNguyenDan:	Tết Nguyên Đán
 TetNguyentieu:	Tết Nguyên tiêu

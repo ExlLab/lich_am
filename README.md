@@ -52,6 +52,33 @@ Giangsinh:	Ngày Lễ Giáng Sinh
  ```   
 
 ### Automation code for TTS:
-
+```
+- alias: thông báo rằm
+  trigger:
+    platform: time
+    at: '20:00:00'
+  condition:
+    condition: template
+    value_template: '{{ state_attr("sensor.lunar_exlab", "NgayRam") = 1 }}'    
+  action:
+    - service: tts.google_say
+      entity_id: media_player.room_speaker
+      data_template:
+        message: "Ngày mai là rằm."
+```
+```
+- alias: thông báo mùng một
+  trigger:
+    platform: time
+    at: '20:00:00'
+  condition:
+    condition: template
+    value_template: '{{ state_attr("sensor.lunar_exlab", "MungMot") = 1 }}'    
+  action:
+    - service: tts.google_say
+      entity_id: media_player.room_speaker
+      data_template:
+        message: "Ngày mai là mùng một."
+```
 
     

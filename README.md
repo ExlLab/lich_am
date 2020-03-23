@@ -1,9 +1,6 @@
 Sensor calendar on Home Assistant
-
 Author: exlab247
-
 Date 24 Mar, 2020
-
 ~--------
 
 Attributes of sensor:
@@ -39,7 +36,7 @@ QuandoiVN:	Ngày thành lập Quân đội Nhân dân Việt Nam
 Giangsinh:	Ngày Lễ Giáng Sinh
 ```
 
-## Config sensor:
+### Config sensor:
 ```
 #sensor:
 - platform: rest  
@@ -54,7 +51,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
     - TetNguyentieu
  ```   
 
-## Code automation for TTS:
+### Code automation for TTS:
 
 
     

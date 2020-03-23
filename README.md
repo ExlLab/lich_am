@@ -1,8 +1,7 @@
-
 Sensor calendar on Home Assistant 
 Author: exlab247
 Date 24 Mar, 2020
---------
+~--------
 Attributes of sensor:
 ```
 TetNguyenDan:	Tết Nguyên Đán
@@ -20,7 +19,7 @@ ThanhlapDang:	Ngày thành lập Đảng Cộng sản Việt Nam
 ThaythuocVN:	Ngày Thầy thuốc Việt Nam
 QuoctePhunu:	Ngày Quốc tế Phụ nữ
 ThanhlapDoan:	Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh
-SachVN:	Ngày Sách Việt Nam
+SachVN:	      Ngày Sách Việt Nam
 Giaiphong:	Ngày Thống nhất đất nước
 QuocteLaodong:	Ngày Quốc tế Lao động
 ThanhlapDoi:	Ngày thành lập Đội Thiếu niên Tiền phong Hồ Chí Minh

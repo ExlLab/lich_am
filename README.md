@@ -14,18 +14,18 @@ LeVuLan:	Lễ Vu Lan
 TetTrungthu:	Tết Trung thu
 Ongtaochautroi:	Ông Táo chầu trời
 TetDuonglich:	Tết Dương lịch
-HocsinhSinhvien:	Ngày Học sinh - Sinh viên Việt Nam
+HocsinhSinhvien: Ngày Học sinh - Sinh viên Việt Nam
 ThanhlapDang:	Ngày thành lập Đảng Cộng sản Việt Nam
 ThaythuocVN:	Ngày Thầy thuốc Việt Nam
 QuoctePhunu:	Ngày Quốc tế Phụ nữ
 ThanhlapDoan:	Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh
-SachVN:	      Ngày Sách Việt Nam
+SachVN:	        Ngày Sách Việt Nam
 Giaiphong:	Ngày Thống nhất đất nước
 QuocteLaodong:	Ngày Quốc tế Lao động
 ThanhlapDoi:	Ngày thành lập Đội Thiếu niên Tiền phong Hồ Chí Minh
 NgaysinhBacHo:	Ngày sinh của Chủ tịch Hồ Chí Minh
 QuocteThieunhi:	Ngày Quốc tế Thiếu nhi
-ThuongbinhLietsi:	Ngày Thương binh Liệt sĩ
+ThuongbinhLietsi: Ngày Thương binh Liệt sĩ
 CachmangThang8:	Ngày Cách mạng tháng Tám thành công
 Quockhanh:	Ngày Quốc khánh
 DoanhnhanVN:	Ngày Doanh nhân Việt Nam
@@ -37,8 +37,8 @@ Giangsinh:	Ngày Lễ Giáng Sinh
 
 
 
-Config sensor:
-# sensor:
+# Config sensor:
+sensor:
 - platform: rest  
   name: "Lunar Exlab"
   resource: https://raw.githubusercontent.com/ExlLab/lich_am/master/sensor.json
@@ -51,7 +51,7 @@ Config sensor:
     - TetNguyentieu
     
 
-Code automation for TTS:
+# Code automation for TTS:
 
 
     

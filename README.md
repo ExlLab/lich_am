@@ -5,6 +5,9 @@ Date 24 Mar, 2020
 
 Attributes of sensor:  
 ```
+lichAm:	Ngày lịch âm
+NgayRam:	Ngày Rằm lịch âm
+MungMot:	Ngày mùng một lịch âm
 TetNguyenDan:	Tết Nguyên Đán
 TetNguyentieu:	Tết Nguyên tiêu
 TetHanthuc:	Tết Hàn thực

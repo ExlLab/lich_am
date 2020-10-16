@@ -1,6 +1,7 @@
-Sensor calendar on Home Assistant  
-Author: exlab247  
-Date 24 Mar, 2020  
+Sensor calendar on Home Assistant
+Author: exlab247@gmail.com
+Date 24 Mar, 2020 version 1.0
+Date 16 Oct, 2020 version 2.0 
 ~----------------~
 
 Attributes of sensor:  
@@ -37,6 +38,7 @@ PhunuVN:	Ngày thành lập Hội Phụ nữ Việt Nam
 NhagiaoVN:	Ngày Nhà giáo Việt Nam
 QuandoiVN:	Ngày thành lập Quân đội Nhân dân Việt Nam
 Giangsinh:	Ngày Lễ Giáng Sinh
+### [ddMM]AL: Toàn bộ ngày âm lịch 
 ```
 
 ### Config sensor:
@@ -52,6 +54,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
     - MungMot
     - TetNguyenDan
     - TetNguyentieu
+    - 1010AL
  ```   
 
 ### Automation code for TTS:
@@ -83,5 +86,18 @@ Giangsinh:	Ngày Lễ Giáng Sinh
       data:
         message: "Ngày mai là mùng một."
 ```
-
+```
+- alias: thông báo ngay kỷ niệm
+  trigger:
+    platform: time
+    at: '20:00:00'
+  condition:
+    condition: template
+    value_template: '{{ state_attr("sensor.lunar_exlab", "1010AL")|int == 1 }}'    
+  action:
+    - service: tts.google_say
+      entity_id: media_player.room_speaker
+      data:
+        message: "Ngày mai là ngày kỷ niệm xyz."
+```
     

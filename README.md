@@ -7,6 +7,7 @@ Date 16 Oct, 2020 version 2.0
 
 Attributes of sensor:  
 ```
+[ddMM]AL:	Toàn bộ ngày âm lịch trong năm  (new update)
 lichAm:	        Ngày lịch âm
 NgayRam:	Ngày Rằm lịch âm
 MungMot:	Ngày mùng một lịch âm
@@ -39,7 +40,6 @@ PhunuVN:	Ngày thành lập Hội Phụ nữ Việt Nam
 NhagiaoVN:	Ngày Nhà giáo Việt Nam
 QuandoiVN:	Ngày thành lập Quân đội Nhân dân Việt Nam
 Giangsinh:	Ngày Lễ Giáng Sinh  
-[ddMM]AL:	Toàn bộ ngày âm lịch trong năm  
 ```
 
 ### Config sensor:

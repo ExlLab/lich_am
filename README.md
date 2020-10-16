@@ -88,7 +88,7 @@ Giangsinh:	Ngày Lễ Giáng Sinh
         message: "Ngày mai là mùng một."
 ```
 ```
-- alias: thông báo ngay kỷ niệm
+- alias: thông báo ngày kỷ niệm
   trigger:
     platform: time
     at: '20:00:00'

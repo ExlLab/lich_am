@@ -38,8 +38,8 @@ DoanhnhanVN:	Ngày Doanh nhân Việt Nam
 PhunuVN:	Ngày thành lập Hội Phụ nữ Việt Nam
 NhagiaoVN:	Ngày Nhà giáo Việt Nam
 QuandoiVN:	Ngày thành lập Quân đội Nhân dân Việt Nam
-Giangsinh:	Ngày Lễ Giáng Sinh
-[ddMM]AL: Toàn bộ ngày âm lịch trong năm
+Giangsinh:	Ngày Lễ Giáng Sinh  
+[ddMM]AL:	Toàn bộ ngày âm lịch trong năm  
 ```
 
 ### Config sensor:

@@ -1,6 +1,9 @@
 Sensor calendar on Home Assistant
+
 Author: exlab247@gmail.com
+
 Date 24 Mar, 2020 version 1.0
+
 Date 16 Oct, 2020 version 2.0 
 ~----------------~
 
